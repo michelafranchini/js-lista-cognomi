@@ -21,6 +21,6 @@ listaCognomi.sort();
 console.log(listaCognomi);
 
 // scrivere posizione umana partendo da 1
-for (var i = 1; i < listaCognomi.length; i++) {
-    
+for (var i = 0; i < listaCognomi.length; i++) {
+    console.log("Posizione n°" , i + 1, listaCognomi[i]);
 }
